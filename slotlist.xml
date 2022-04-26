@@ -1,4 +1,4 @@
-<match natosymbol="air" callsign="US" vehicletype="">
+<company natosymbol="air" callsign="US" vehicletype="">
 <slot shortcode="SQL" description="Squad Leader"/>
 <slot shortcode="SQA" description="Assistant Squad Leader"/>
 <slot shortcode="SQM" description="Squad Medic"/>
@@ -35,4 +35,3 @@
 <slot shortcode="R" description="Rifleman"/>
 </squad>
 </company>
-</match>
