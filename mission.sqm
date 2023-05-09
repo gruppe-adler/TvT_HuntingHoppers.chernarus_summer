@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1038;
+		nextID=1039;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=297;
+		nextID=307;
 	};
 	class Camera
 	{
-		pos[]={9036.0605,372.40152,3929.2124};
-		dir[]={0.43596864,-0.54226053,0.71825129};
-		up[]={0.28136832,0.84021044,0.46354976};
-		aside[]={0.85484695,0,-0.51888037};
+		pos[]={1394.7889,395.79077,13405.133};
+		dir[]={-0.51498139,-0.71497023,0.47287917};
+		up[]={-0.52662939,0.69915354,0.48357466};
+		aside[]={0.67635649,-1.8285937e-007,0.73657578};
 	};
 };
 binarizationWanted=0;
@@ -47,13 +47,14 @@ addons[]=
 	"A3_Soft_F_Enoch_Offroad_01",
 	"A3_Soft_F_Orange_Van_02",
 	"rhsusf_c_melb",
-	"ace_compat_rhs_usf3"
+	"ace_compat_rhs_usf3",
+	"A3_Modules_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=18;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -167,6 +168,13 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
+		class Item17
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 dlcs[]=
@@ -231,7 +239,7 @@ class CustomAttributes
 								};
 								class value
 								{
-									items=84;
+									items=87;
 									class Item0
 									{
 										class data
@@ -1408,6 +1416,48 @@ class CustomAttributes
 											value="ace_repair_autoshutoffenginewhenstartingrepair";
 										};
 									};
+									class Item84
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="grad_civs_cars_animaltransportchance";
+										};
+									};
+									class Item85
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="grad_civs_voyage_maxcivsinvehicles";
+										};
+									};
+									class Item86
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_repair_wheelrepairrequireditems";
+										};
+									};
 								};
 							};
 						};
@@ -1424,7 +1474,7 @@ class CustomAttributes
 								};
 								class value
 								{
-									items=84;
+									items=87;
 									class Item0
 									{
 										class data
@@ -4465,7 +4515,7 @@ class CustomAttributes
 																"SCALAR"
 															};
 														};
-														value=2000;
+														value=7000;
 													};
 												};
 												class Item1
@@ -5203,6 +5253,140 @@ class CustomAttributes
 											};
 										};
 									};
+									class Item84
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item85
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=50;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item86
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"ARRAY"
+															};
+														};
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
 								};
 							};
 						};
@@ -5290,7 +5474,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=79;
+		items=80;
 		class Item0
 		{
 			dataType="Layer";
@@ -5559,7 +5743,7 @@ class Mission
 					position[]={1324.1134,322.69727,13435.531};
 					name="respawn_west";
 					type="Empty";
-					angle=7.8073044;
+					angle=7.807303;
 					id=2;
 					atlOffset=-11.520813;
 				};
@@ -5625,7 +5809,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1374.4756,334.25168,13426.835};
-								angles[]={0,2.8507059,-0};
+								angles[]={0,2.8507059,0};
 							};
 							side="West";
 							flags=3;
@@ -5661,6 +5845,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -5678,7 +5881,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -5697,7 +5900,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item1
@@ -5706,7 +5909,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1371.5526,334.35803,13429.466};
-								angles[]={0,2.2739792,-0};
+								angles[]={0,2.2739792,0};
 							};
 							side="West";
 							flags=1;
@@ -5741,6 +5944,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -5758,7 +5980,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -5777,7 +5999,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item2
@@ -5786,7 +6008,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1372.8951,334.61429,13431.955};
-								angles[]={0,2.145802,-0};
+								angles[]={0,2.145802,0};
 							};
 							side="West";
 							flags=1;
@@ -5821,6 +6043,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -5838,7 +6079,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -5857,7 +6098,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item3
@@ -5900,6 +6141,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -5917,7 +6177,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -5936,7 +6196,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 					};
@@ -6077,7 +6337,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1358.3905,334.505,13438.722};
-								angles[]={0,2.8507059,-0};
+								angles[]={0,2.8507059,0};
 							};
 							side="West";
 							flags=3;
@@ -6112,6 +6372,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -6129,7 +6408,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -6148,7 +6427,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item1
@@ -6191,6 +6470,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -6208,7 +6506,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -6227,7 +6525,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item2
@@ -6270,6 +6568,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -6287,7 +6604,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -6306,7 +6623,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item3
@@ -6349,6 +6666,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -6366,7 +6702,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -6385,7 +6721,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item4
@@ -6428,6 +6764,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -6445,7 +6800,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -6464,7 +6819,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 					};
@@ -6510,7 +6865,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1364.4503,334.44479,13433.752};
-								angles[]={0,2.8507059,-0};
+								angles[]={0,2.8507059,0};
 							};
 							side="West";
 							flags=3;
@@ -6545,6 +6900,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -6562,7 +6936,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -6581,7 +6955,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item1
@@ -6590,7 +6964,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1365.7657,334.59845,13436.454};
-								angles[]={0,2.8507059,-0};
+								angles[]={0,2.8507059,0};
 							};
 							side="West";
 							flags=1;
@@ -6625,6 +6999,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -6642,7 +7035,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -6661,7 +7054,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item2
@@ -6670,7 +7063,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1361.8499,334.44327,13435.216};
-								angles[]={0,2.8507059,-0};
+								angles[]={0,2.8507059,0};
 							};
 							side="West";
 							flags=1;
@@ -6705,6 +7098,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -6722,7 +7134,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -6741,7 +7153,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item3
@@ -6784,6 +7196,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -6801,7 +7232,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -6820,7 +7251,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item4
@@ -6839,7 +7270,7 @@ class Mission
 							};
 							id=499;
 							type="B_Pilot_F";
-							atlOffset=0.26589966;
+							atlOffset=0.26583862;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -6863,6 +7294,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -6880,7 +7330,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -6899,7 +7349,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 					};
@@ -6945,7 +7395,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9068.0098,254.02347,4070.1589};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=7;
@@ -7028,7 +7478,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9069.2568,253.99329,4064.9434};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -7108,7 +7558,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9071.082,254.04089,4068.0527};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -7225,7 +7675,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9074.6123,254.1049,4071.0654};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=7;
@@ -7304,7 +7754,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9077.8525,253.93665,4070.4912};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -7384,7 +7834,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9076.7813,254.08339,4073.4348};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -7464,7 +7914,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9075.834,254.12177,4075.2319};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -7660,7 +8110,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9081.1162,254.03993,4075.2324};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=7;
@@ -7740,7 +8190,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9082.2764,254.26459,4079.5583};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -7820,7 +8270,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9083.4473,254.14404,4078.0056};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -7900,7 +8350,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9084.1885,254.01772,4076.177};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -7979,7 +8429,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9081.6377,254.28336,4080.1311};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -8095,7 +8545,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9089.9043,253.79962,4076.8831};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=7;
@@ -8175,7 +8625,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9091.0645,254.01697,4081.21};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -8255,7 +8705,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9092.2354,253.85104,4079.6563};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -8335,7 +8785,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9092.9775,253.70815,4077.8281};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -8414,7 +8864,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9089.9102,254.13684,4082.1528};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -8531,7 +8981,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1353.4193,334.69855,13446.108};
-								angles[]={0,2.8507059,-0};
+								angles[]={0,2.8507059,0};
 							};
 							side="West";
 							flags=3;
@@ -8566,6 +9016,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -8583,7 +9052,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -8602,7 +9071,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item1
@@ -8645,6 +9114,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -8662,7 +9150,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -8681,7 +9169,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item2
@@ -8724,6 +9212,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -8741,7 +9248,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -8760,7 +9267,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item3
@@ -8803,6 +9310,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -8820,7 +9346,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -8839,7 +9365,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item4
@@ -8882,6 +9408,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -8899,7 +9444,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -8918,7 +9463,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 					};
@@ -8964,7 +9509,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9098.9248,254.2366,4083.4856};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=7;
@@ -9044,7 +9589,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9100.0869,254.95538,4087.8125};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -9123,7 +9668,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9101.2578,254.79027,4086.2598};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -9203,7 +9748,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9101.998,254.52394,4084.4307};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -9283,7 +9828,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9098.9316,254.92691,4088.7563};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -9399,7 +9944,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1343.2355,335.51981,13450.444};
-								angles[]={0,2.8507059,-0};
+								angles[]={0,2.8507059,0};
 							};
 							side="West";
 							flags=3;
@@ -9434,6 +9979,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -9451,7 +10015,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -9470,7 +10034,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item1
@@ -9513,6 +10077,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -9530,7 +10113,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -9549,7 +10132,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item2
@@ -9592,6 +10175,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -9609,7 +10211,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -9628,7 +10230,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item3
@@ -9671,6 +10273,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -9688,7 +10309,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -9707,7 +10328,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item4
@@ -9750,6 +10371,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -9767,7 +10407,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -9786,7 +10426,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 					};
@@ -9832,7 +10472,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1335.14,336.06616,13457.681};
-								angles[]={0,2.8507059,-0};
+								angles[]={0,2.8507059,0};
 							};
 							side="West";
 							flags=3;
@@ -9867,6 +10507,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -9884,7 +10543,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -9903,7 +10562,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item1
@@ -9946,6 +10605,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -9963,7 +10641,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -9982,7 +10660,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item2
@@ -10025,6 +10703,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -10042,7 +10739,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -10061,7 +10758,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item3
@@ -10104,6 +10801,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -10121,7 +10837,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -10140,7 +10856,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item4
@@ -10183,6 +10899,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -10200,7 +10935,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -10219,7 +10954,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 					};
@@ -10265,7 +11000,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1327.33,336.60367,13466.165};
-								angles[]={0,2.8507059,-0};
+								angles[]={0,2.8507059,0};
 							};
 							side="West";
 							flags=3;
@@ -10300,6 +11035,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -10317,7 +11071,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -10336,7 +11090,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item1
@@ -10379,6 +11133,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -10396,7 +11169,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -10415,7 +11188,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item2
@@ -10458,6 +11231,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -10475,7 +11267,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -10494,7 +11286,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item3
@@ -10537,6 +11329,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -10554,7 +11365,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -10573,7 +11384,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item4
@@ -10616,6 +11427,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -10633,7 +11463,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -10652,7 +11482,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 					};
@@ -10698,7 +11528,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9108.3643,255.37392,4092.2244};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=7;
@@ -10778,7 +11608,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9109.5254,255.78584,4096.5508};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -10857,7 +11687,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9110.6963,255.78682,4094.998};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -10937,7 +11767,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9110.9053,255.60013,4092.9434};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -11017,7 +11847,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9108.3711,255.75642,4097.4946};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -11133,7 +11963,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9117.458,256.45322,4100.2666};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=7;
@@ -11213,7 +12043,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9118.6182,256.87576,4104.5933};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -11292,7 +12122,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9119.79,256.82333,4103.0391};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -11371,7 +12201,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9120.5313,256.68088,4101.2109};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -11450,7 +12280,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9117.4639,256.89346,4105.5352};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -11567,7 +12397,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1320.161,337.0112,13472.33};
-								angles[]={0,2.8507059,-0};
+								angles[]={0,2.8507059,0};
 							};
 							side="West";
 							flags=3;
@@ -11602,6 +12432,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -11619,7 +12468,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -11638,7 +12487,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item1
@@ -11681,6 +12530,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -11698,7 +12566,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -11717,7 +12585,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item2
@@ -11760,6 +12628,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -11777,7 +12664,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -11796,7 +12683,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item3
@@ -11839,6 +12726,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -11856,7 +12762,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -11875,7 +12781,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 						class Item4
@@ -11918,6 +12824,25 @@ class Mission
 								};
 								class Attribute1
 								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=2;
+										};
+									};
+								};
+								class Attribute2
+								{
 									property="speaker";
 									expression="_this setspeaker _value;";
 									class Value
@@ -11935,7 +12860,7 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
+								class Attribute3
 								{
 									property="pitch";
 									expression="_this setpitch _value;";
@@ -11954,7 +12879,7 @@ class Mission
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=4;
 							};
 						};
 					};
@@ -12000,7 +12925,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9124.6719,257.00787,4104.0234};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=7;
@@ -12079,7 +13004,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9125.832,257.32083,4108.3506};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -12159,7 +13084,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9127.0029,257.25827,4106.7969};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -12239,7 +13164,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9127.7441,257.15811,4104.9683};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -12318,7 +13243,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9124.6768,257.34369,4109.2935};
-								angles[]={0,4.2604032,-0};
+								angles[]={0,4.2604032,0};
 							};
 							side="East";
 							flags=5;
@@ -13200,8 +14125,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9081.291,256.38208,4088.156};
-				angles[]={6.1310401,2.7667696,6.2565231};
+				position[]={9086.8066,256.55054,4088.812};
+				angles[]={6.1452546,2.7667696,0.018663859};
 			};
 			side="Empty";
 			flags=4;
@@ -13212,7 +14137,7 @@ class Mission
 			};
 			id=747;
 			type="C_Van_01_transport_F";
-			atlOffset=-0.044799805;
+			atlOffset=-0.0018005371;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13532,8 +14457,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9096.1719,256.61234,4102.9839};
-				angles[]={6.2498641,2.7988982,6.1699533};
+				position[]={9099.3174,253.84062,4070.3413};
+				angles[]={6.1401701,5.3613353,6.1467061};
 			};
 			side="Empty";
 			class Attributes
@@ -13541,7 +14466,7 @@ class Mission
 			};
 			id=898;
 			type="TFAR_EAST_Radio_Crate";
-			atlOffset=0.84342957;
+			atlOffset=0.93153381;
 		};
 		class Item34
 		{
@@ -13564,7 +14489,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9077.2861,256.37411,4086.2534};
+				position[]={9081.6572,256.27695,4086.2808};
 				angles[]={6.2685165,2.7491565,6.2565231};
 			};
 			side="Empty";
@@ -13575,7 +14500,6 @@ class Mission
 			};
 			id=902;
 			type="C_Van_01_transport_F";
-			atlOffset=-0.019012451;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13714,16 +14638,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1374.8127,338.69962,13490.783};
-				angles[]={0,2.2684197,0};
+				position[]={1336.6262,335.01752,13445.168};
+				angles[]={6.1959243,2.2684197,6.2594743};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=933;
 			type="HeliH";
-			atlOffset=0.26599121;
 		};
 		class Item47
 		{
@@ -13762,16 +14686,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1361.0916,339.23468,13502.434};
-				angles[]={0,2.2678807,0};
+				position[]={1322.905,335.96533,13456.818};
+				angles[]={6.2352247,2.2678807,6.2618566};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=936;
 			type="HeliH";
-			atlOffset=0.26599121;
 		};
 		class Item50
 		{
@@ -13810,16 +14734,16 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1347.3704,339.51315,13514.084};
-				angles[]={0,2.2679303,0};
+				position[]={1309.1838,336.8399,13468.469};
+				angles[]={6.2392163,2.2679303,6.253859};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=939;
 			type="HeliH";
-			atlOffset=0.26599121;
 		};
 		class Item53
 		{
@@ -13843,8 +14767,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9096.5059,257.04944,4101.998};
-				angles[]={6.2498641,2.7988982,6.1699533};
+				position[]={9098.6289,254.53224,4070.9089};
+				angles[]={6.1401701,5.3613353,6.1467061};
 			};
 			side="Empty";
 			flags=4;
@@ -13854,7 +14778,7 @@ class Mission
 			};
 			id=1013;
 			type="C_Offroad_01_covered_F";
-			atlOffset=-0.046020508;
+			atlOffset=-0.014221191;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13884,8 +14808,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9073.0449,256.26648,4084.6099};
-				angles[]={6.2272429,2.77756,6.212636};
+				position[]={9076.1016,256.12616,4083.8616};
+				angles[]={6.2272415,2.77756,0.014664836};
 			};
 			side="Empty";
 			flags=4;
@@ -13895,7 +14819,7 @@ class Mission
 			};
 			id=1014;
 			type="C_Offroad_01_comms_F";
-			atlOffset=-0.033859253;
+			atlOffset=-0.0062255859;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13982,7 +14906,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9076.9053,257.13156,4096.5347};
+				position[]={9075.4111,257.2728,4096.6616};
 				angles[]={6.1014385,2.722126,6.242022};
 			};
 			side="Empty";
@@ -13991,14 +14915,14 @@ class Mission
 			};
 			id=1017;
 			type="TFAR_EAST_Radio_Crate";
-			atlOffset=0.88896179;
+			atlOffset=0.94534302;
 		};
 		class Item59
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9077.2773,257.44186,4095.5154};
+				position[]={9075.7832,257.5831,4095.6423};
 				angles[]={6.1014385,2.722126,6.242022};
 			};
 			side="Empty";
@@ -14009,7 +14933,6 @@ class Mission
 			};
 			id=1018;
 			type="C_Offroad_01_covered_F";
-			atlOffset=-0.056304932;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14039,7 +14962,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9072.6641,257.26563,4095.4824};
+				position[]={9069.8086,257.46292,4094.1426};
 				angles[]={6.1310401,2.8269808,6.1663995};
 			};
 			side="Empty";
@@ -14048,14 +14971,14 @@ class Mission
 			};
 			id=1019;
 			type="TFAR_EAST_Radio_Crate";
-			atlOffset=0.88876343;
+			atlOffset=0.9460144;
 		};
 		class Item61
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9072.9717,257.58365,4094.4438};
+				position[]={9070.1162,257.78094,4093.104};
 				angles[]={6.1310401,2.8269808,6.1663995};
 			};
 			side="Empty";
@@ -14066,7 +14989,6 @@ class Mission
 			};
 			id=1020;
 			type="C_Offroad_01_covered_F";
-			atlOffset=-0.067703247;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14096,10 +15018,11 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9090.9727,257.83304,4094.875};
-				angles[]={0,2.581907,-0};
+				position[]={9091.458,256.87012,4092.0112};
+				angles[]={6.1942225,2.581907,0.038647637};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="[this] execVM ""USER\functions\addToRespawn.sqf"";";
@@ -14107,7 +15030,7 @@ class Mission
 			};
 			id=1021;
 			type="C_Van_01_transport_F";
-			atlOffset=0.77905273;
+			atlOffset=-0.0090179443;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14217,8 +15140,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={9086.9063,256.93878,4094.0964};
-				angles[]={6.194222,2.625865,6.2522469};
+				position[]={9085.1787,258.71173,4105.2412};
+				angles[]={6.0921164,2.625865,6.2207947};
 			};
 			side="Empty";
 			flags=4;
@@ -14229,7 +15152,7 @@ class Mission
 			};
 			id=1022;
 			type="C_Van_02_transport_F";
-			atlOffset=-0.025024414;
+			atlOffset=-0.010009766;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15523,10 +16446,11 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1346.6689,341.46585,13514.373};
-				angles[]={0,2.3033781,0};
+				position[]={1308.4824,338.76593,13468.758};
+				angles[]={6.2392163,2.3033781,6.253859};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
@@ -15535,7 +16459,7 @@ class Mission
 			};
 			id=1031;
 			type="RHS_MELB_MH6M";
-			atlOffset=0.26599121;
+			atlOffset=-0.050170898;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15789,10 +16713,11 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1360.3718,341.17419,13502.68};
-				angles[]={0,2.3033285,0};
+				position[]={1322.1853,337.88846,13457.064};
+				angles[]={6.2352247,2.3033285,6.2618566};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
@@ -15801,7 +16726,7 @@ class Mission
 			};
 			id=1032;
 			type="RHS_MELB_MH6M";
-			atlOffset=0.26599121;
+			atlOffset=-0.046875;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16587,10 +17512,11 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1374.4131,340.70682,13490.986};
-				angles[]={0,2.3038676,0};
+				position[]={1336.2266,336.98291,13445.371};
+				angles[]={6.1959243,2.3038676,6.2594743};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
@@ -16599,7 +17525,7 @@ class Mission
 			};
 			id=1035;
 			type="RHS_MELB_MH6M";
-			atlOffset=0.26599121;
+			atlOffset=-0.0099487305;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17374,6 +18300,61 @@ class Mission
 									};
 								};
 							};
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item79
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1326.8356,336.8992,13477.715};
+				angles[]={6.239212,0,6.2685208};
+			};
+			areaSize[]={50,0,50};
+			flags=1;
+			id=1038;
+			type="ModuleHideTerrainObjects_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
 						};
 					};
 				};
